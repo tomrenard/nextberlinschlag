@@ -1,17 +1,31 @@
 {
-  "name": "studio",
+  "name": "berlinschlag",
+  "private": true,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "package.json",
+  "author": "Tom Renard <tom.renard@zoho.com>",
+  "license": "UNLICENSED",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "start": "npx @sanity/cli start",
+    "build": "sanity build"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
-    "@sanity/cli": "^2.25.0"
-  }
+    "@sanity/base": "^2.25.4",
+    "@sanity/core": "^2.25.0",
+    "@sanity/default-layout": "^2.25.4",
+    "@sanity/default-login": "^2.24.1",
+    "@sanity/desk-tool": "^2.25.4",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.25.4",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
 }
