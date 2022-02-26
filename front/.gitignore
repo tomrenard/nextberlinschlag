@@ -1,6 +1,7 @@
 ### Ignore dist folder
 dist
 build
+.next
 
 ### Project
 # Code coverage reports
