@@ -2,6 +2,7 @@
 dist
 build
 .next
+front/.next
 
 ### Project
 # Code coverage reports
@@ -24,6 +25,7 @@ npm-debug.log*
 # local .env* files
 .env.local
 .env.*.local
+.env
 
 # Runtime data
 pids
